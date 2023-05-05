@@ -6,23 +6,24 @@ const Home = () => {
   return (
     <Fragment>
       <section className="banner">
-        <div className="bg-blue-primary grid lg:grid-cols-2">
-          <div className="px-16 lg:py-48 py-16 flex items-center justify-end">
-            <div className="flex flex-col items-start justify-center xl:w-3/4 w-full">
-              <h1 className="heading text-white font-semibold text-6xl my-4">
-                Qpharmacy
+        <div className="bg-green grid lg:grid-cols-2">
+          <div className="px-16 lg:py-32 py-16 flex items-center justify-start">
+            <div className="flex flex-col items-start justify-center xl:w-5/6 w-full">
+              <h1 className="heading text-white font-semibold text-5xl my-4">
+                Postnatal Care Begins Here
               </h1>
               <h3 className="heading text-white font-medium text-4xl my-4">
-                Marketing and management support to help your independent
-                pharmacy thrive
+                Feeling rested, rejuvenated and re-energized at our facility
               </h3>
-              <h5 className="text-white text-xl my-4">
-                Set your pharmacy up for success with Qpharmacy’s
-                behind-the-scenes support
-              </h5>
+              <a
+                href="#"
+                className="btn-primary text-white bg-transparent border-2 border-amber hover:bg-amber font-medium text-xl mt-8"
+              >
+                Get Started
+              </a>
             </div>
           </div>
-          <div className="bg-[url(../public/img/inventory-two-druggists-lab-coat.jpg)] bg-cover bg-center bg-no-repeat lg:block hidden"></div>
+          <div className="bg-cover bg-center bg-no-repeat lg:block hidden"></div>
           <div className="lg:hidden block container mx-auto">
             <img
               className="w-full rounded-xl mx-2 mb-6"
@@ -33,23 +34,29 @@ const Home = () => {
         </div>
       </section>
       <section className="py-32 container mx-auto">
-        <h2 className="text-5xl heading text-center font-semibold text-blue-primary my-3">
-          Meet Qpharmacy
-        </h2>
-        <h4 className="text-3xl text-center text-blue-primary my-3">
-          Marketing and management support for small to medium independent
-          pharmacies
-        </h4>
-        <div className="my-12 w-full lg:w-1/2 lg:mx-auto mx-4">
-          <img
-            className="rounded-xl w-full"
-            src="/img/pexels-fauxels-3184292.jpg"
-            alt="Marketing Discussion"
-          />
+        <div className="grid lg:grid-cols-2 gap-8">
+          <div></div>
+          <div className="flex flex-col lg:items-start items-center justify-center">
+            <div className="border-amber border w-16 my-4"></div>
+            <h2 className="heading text-5xl font-semibold text-green mb-4">
+              About Us
+            </h2>
+            <p className="max-w-md text-lg font-medium mb-4">
+              The Shalvah is a modern hotel dedicated to offering relaxation and
+              refuge. Our staff and facilities are centered on meeting your
+              needs by providing you with amenities fit for the most demanding
+              guest. Our goal is to make you feel like you are part of our
+              family. Enjoy and relax in the comfort of our home away from your
+              home.
+            </p>
+            <a
+              href="#contact"
+              className="btn-primary border-2 border-green text-green hover:text-white hover:bg-amber hover:border-amber mt-4 font-medium text-lg"
+            >
+              Find Out More
+            </a>
+          </div>
         </div>
-        <h5 className="text-xl text-center my-3">
-          You take care of the scripts and leave the marketing to us
-        </h5>
       </section>
       <section className="py-32 bg-slate-100">
         <h2 className="heading text-5xl text-blue-primary font-semibold text-center my-16">

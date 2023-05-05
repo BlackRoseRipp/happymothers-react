@@ -18,8 +18,8 @@ function NavButton(props) {
     <a
       className={classNames(
         path === to
-          ? "text-blue-secondary lg:text-blue-secondary lg:border-blue-secondary border-transparent font-medium"
-          : "text-blue-primary border-transparent lg:hover:border-blue-primary",
+          ? "text-amber lg:text-amber lg:border-amber border-transparent font-medium"
+          : "text-black border-transparent lg:hover:border-green",
         "py-2 lg:mx-6 mx-4 transition-all flex items-center text-lg border-b"
       )}
       aria-current="page"

@@ -1,5 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -9,7 +10,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Work Sans", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   @apply scroll-smooth;
 }
@@ -59,12 +60,26 @@ a {
   font-family: "Raleway", sans-serif;
 }
 
+.logo {
+  font-family: "Noto Serif Display", serif;
+}
+
 .banner {
-  padding-top: 77px;
+  padding-top: 92px;
 }
 
 .btn-primary {
-  @apply py-3 px-6 rounded-full transition-all duration-300;
+  @apply py-3 px-6 rounded-lg transition-all duration-300;
+}
+
+@media screen and (max-width: 1024px) {
+  .btn-primary {
+    @apply py-1 px-3 rounded-md
+  }
+
+  .banner {
+    padding-top: 68px;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
