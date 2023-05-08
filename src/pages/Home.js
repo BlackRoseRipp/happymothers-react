@@ -1,6 +1,6 @@
 import { Fragment } from "react";
-import { BsCheck2Circle } from "react-icons/bs";
-import { FaBox, FaClipboardList, FaDollarSign, FaUsers } from "react-icons/fa";
+import { FaHandHoldingHeart, FaRegClock } from "react-icons/fa";
+import { IoIosBed } from "react-icons/io";
 
 const Home = () => {
   return (
@@ -38,16 +38,14 @@ const Home = () => {
           <div></div>
           <div className="flex flex-col lg:items-start items-center justify-center">
             <div className="border-amber border w-16 my-4"></div>
-            <h2 className="heading text-5xl font-semibold text-green mb-4">
-              About Us
+            <h2 className="heading text-4xl font-semibold text-green mb-4">
+              Childbirth is difficult
             </h2>
             <p className="max-w-md text-lg font-medium mb-4">
-              The Shalvah is a modern hotel dedicated to offering relaxation and
-              refuge. Our staff and facilities are centered on meeting your
-              needs by providing you with amenities fit for the most demanding
-              guest. Our goal is to make you feel like you are part of our
-              family. Enjoy and relax in the comfort of our home away from your
-              home.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Cras
+              semper auctor neque vitae tempus quam. Purus sit amet volutpat
+              consequat mauris nunc congue nisi vitae.
             </p>
             <a
               href="#contact"
@@ -58,105 +56,63 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="py-32 bg-slate-100">
-        <h2 className="heading text-5xl text-blue-primary font-semibold text-center my-16">
-          How We Help Small To Medium Pharmacies
-        </h2>
-        <div className="container mx-auto">
-          <div className="grid lg:grid-cols-2 gap-12 max-w-3xl mx-auto">
-            <div className="p-12 rounded-xl bg-white flex flex-col items-start shadow-md hover:shadow-xl transition-all">
-              <FaUsers className="text-blue-secondary text-6xl mb-2" />
-              <h3 className="text-2xl text-blue-secondary">Marketing</h3>
-              <p className="text-blue-light mt-8">
-                Stay top of mind for your customers by getting the help you need
-                on branding, website building, promotional swag and social
-                media.
-              </p>
-            </div>
-            <div className="p-12 rounded-xl bg-white flex flex-col items-start shadow-md hover:shadow-xl transition-all">
-              <FaClipboardList className="text-blue-secondary text-6xl mb-2" />
-              <h3 className="text-2xl text-blue-secondary">Management</h3>
-              <p className="text-blue-light mt-8">
-                We help you manage inventory so that you can fill scripts on
-                time, every time. We also help you lower costs by minimizing
-                overstock.
-              </p>
-            </div>
-            <div className="p-12 rounded-xl bg-white flex flex-col items-start shadow-md hover:shadow-xl transition-all">
-              <FaDollarSign className="text-blue-secondary text-6xl mb-2" />
-              <h3 className="text-2xl text-blue-secondary">Purchasing</h3>
-              <p className="text-blue-light mt-8">
-                Access better buying power by joining our network of small to
-                medium size pharmacies.
-              </p>
-            </div>
-            <div className="p-12 rounded-xl bg-white flex flex-col items-start shadow-md hover:shadow-xl transition-all">
-              <FaBox className="text-blue-secondary text-6xl mb-2" />
-              <h3 className="text-2xl text-blue-secondary">Delivery</h3>
-              <p className="text-blue-light mt-8">
-                We make delivering scripts to your customers easy and
-                affordable, helping you stay competitive in your area.
-              </p>
+      <section className="py-32 container mx-auto">
+        <div className="bg-[url(../public/img/patterns/dots-background-1.png)] bg-cover rounded-lg max-w-6xl lg:mx-auto mx-2">
+          <div className="p-12 bg-green/10">
+            <div className="border-amber border w-16 my-4 mx-auto"></div>
+            <h2 className="heading text-5xl text-dark-green font-semibold text-center mb-12">
+              We're here for you,
+              <br />
+              And your baby
+            </h2>
+            <div className="grid lg:grid-cols-3 gap-x-4 gap-y-8 pt-4">
+              <div className="flex flex-col justify-start items-center">
+                <FaRegClock className="text-6xl text-dark-green" />
+                <h4 className="text-2xl heading text-center font-semibold mt-4">
+                  24/7 Assistance
+                </h4>
+                <p className="text-center font-medium text-sm mt-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Eu turpis egestas pretium aenean pharetra magna ac. Accumsan
+                  lacus vel facilisis volutpat est.
+                </p>
+              </div>
+              <div className="flex flex-col justify-start items-center">
+                <FaHandHoldingHeart className="text-6xl text-dark-green" />
+                <h4 className="text-2xl heading text-center font-semibold mt-4">
+                  Flexible Care
+                </h4>
+                <p className="text-center font-medium text-sm mt-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Eu turpis egestas pretium aenean pharetra magna ac. Accumsan
+                  lacus vel facilisis volutpat est.
+                </p>
+              </div>
+              <div className="flex flex-col justify-start items-center">
+                <IoIosBed className="text-6xl text-dark-green" />
+                <h4 className="text-2xl heading text-center font-semibold mt-4">
+                  Comfortable Lodging
+                </h4>
+                <p className="text-center font-medium text-sm mt-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Eu turpis egestas pretium aenean pharetra magna ac. Accumsan
+                  lacus vel facilisis volutpat est.
+                </p>
+              </div>
             </div>
           </div>
-          <h3 className="text-4xl font-medium text-center text-blue-primary mt-24 mb-16">
-            We provide pharmacy owners with peace of mind
-          </h3>
-          <div className="bg-white shadow-md hover:shadow-xl transition-all border-2 border-blue-primary rounded-xl p-8 lg:max-w-4xl max-w-lg mx-auto">
-            <div className="grid lg:grid-cols-2 gap-8">
-              <div className="flex items-start justify-start hover:-translate-y-1 transition-all">
-                <BsCheck2Circle className="text-blue-secondary text-2xl mr-2 mt-0.5" />
-                <h5 className="text-blue-secondary text-lg">Branding</h5>
-              </div>
-              <div className="flex items-start justify-start hover:-translate-y-1 transition-all">
-                <BsCheck2Circle className="text-blue-secondary text-2xl mr-2 mt-0.5" />
-                <h5 className="text-blue-secondary text-lg">
-                  Social media support
-                </h5>
-              </div>
-              <div className="flex items-start justify-start hover:-translate-y-1 transition-all">
-                <BsCheck2Circle className="text-blue-secondary text-2xl mr-2 mt-0.5" />
-                <h5 className="text-blue-secondary text-lg">
-                  Website building and management
-                </h5>
-              </div>
-              <div className="flex items-start justify-start hover:-translate-y-1 transition-all">
-                <BsCheck2Circle className="text-blue-secondary text-2xl mr-2 mt-0.5" />
-                <h5 className="text-blue-secondary text-lg">
-                  Print collateral
-                </h5>
-              </div>
-              <div className="flex items-start justify-start hover:-translate-y-1 transition-all">
-                <BsCheck2Circle className="text-blue-secondary text-2xl mr-2 mt-0.5" />
-                <h5 className="text-blue-secondary text-lg">
-                  Promotional swag
-                </h5>
-              </div>
-              <div className="flex items-start justify-start hover:-translate-y-1 transition-all">
-                <BsCheck2Circle className="text-blue-secondary text-2xl mr-2 mt-0.5" />
-                <h5 className="text-blue-secondary text-lg">
-                  Streamline operations
-                </h5>
-              </div>
-              <div className="flex items-start justify-start hover:-translate-y-1 transition-all">
-                <BsCheck2Circle className="text-blue-secondary text-2xl mr-2 mt-0.5" />
-                <h5 className="text-blue-secondary text-lg">
-                  Inventory tracking
-                </h5>
-              </div>
-              <div className="flex items-start justify-start hover:-translate-y-1 transition-all w-fit">
-                <BsCheck2Circle className="text-blue-secondary text-2xl mt-0.5" />
-                <h5 className="text-blue-secondary ml-2 text-lg w-fit">
-                  Discounted inventory purchasing
-                </h5>
-              </div>
-              <div className="flex items-start justify-start hover:-translate-y-1 transition-all">
-                <BsCheck2Circle className="text-blue-secondary text-2xl mr-2 mt-0.5" />
-                <h5 className="text-blue-secondary text-lg">
-                  Prescription delivery
-                </h5>
-              </div>
-            </div>
+        </div>
+      </section>
+      <section className="container mx-auto py-32">
+        <div className="grid lg:grid-cols-2 gap-x-4 gap-y-8">
+          <div className="flex flex-col justify-center items-end">
+            <div className="border-amber border w-16 my-4 lg:ml-auto mx-auto"></div>
+            <h2 className="heading text-4xl text-green font-semibold lg:text-start text-center mb-12">
+              What to expect from your visit
+            </h2>
           </div>
         </div>
       </section>

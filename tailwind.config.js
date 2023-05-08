@@ -10,6 +10,7 @@ module.exports = {
         amber: "#ffba49",
         green: "#20a39e",
         red: "#ef5b5b",
+        "dark-green": "#0d4442",
       },
     },
   },
