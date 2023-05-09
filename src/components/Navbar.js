@@ -52,9 +52,6 @@ const Navbar = () => {
                 <NavButton to="/" primary="Home" />
               </li>
               <li>
-                <NavButton to="/services" primary="What We Offer" />
-              </li>
-              <li>
                 <NavButton to="/plans" primary="Plans" />
               </li>
               <li>
