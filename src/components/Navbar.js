@@ -40,7 +40,7 @@ const Navbar = () => {
           </button>
           <div className="flex">
             <h1 className="logo text-green xl:text-6xl md:text-5xl text-3xl font-bold">
-              The Shalvah
+              Happy Mothers
             </h1>
             <ul
               className={classNames(
