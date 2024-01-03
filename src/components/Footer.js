@@ -21,8 +21,8 @@ const Footer = () => {
             </a>
           </div>
           <div className="flex items-center justify-center w-fit mx-auto justify-self-center lg:order-2 order-1">
-            <h2 className="logo text-white xl:text-6xl md:text-5xl text-3xl font-bold">
-              Shalvah
+            <h2 className="logo text-white xl:text-6xl md:text-5xl text-3xl font-bold text-center w-fit mx-auto">
+              Happy Mothers
             </h2>
           </div>
           <div className="flex flex-col lg:items-end items-center justify-center order-3">

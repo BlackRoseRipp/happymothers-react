@@ -29,7 +29,7 @@ const Home = () => {
             <img
               className="w-full rounded-xl mx-2 mb-6"
               src="/img/pexels-ivan-rivero-1001965.jpg"
-              alt="Hotel Shalvah"
+              alt="Hotel"
             />
           </div>
         </div>
